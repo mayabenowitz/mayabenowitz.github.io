@@ -1,2 +1,5 @@
 name: Maya Benowitz
 markdown: Kramdown
+
+
+permalink: /blog/:year/:month/:day/:title
