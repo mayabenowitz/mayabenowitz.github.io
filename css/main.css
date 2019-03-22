@@ -51,9 +51,9 @@ ul.posts li {
   background-position: center;
 }
 
-title { 
-   position: absolute; 
-   top: 200px; 
-   left: 0; 
-   width: 100%; 
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
