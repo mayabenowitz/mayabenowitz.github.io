@@ -1,0 +1,13 @@
+- title: Project
+  url: /project.html
+  sublinks:
+    - title: Biohacking
+      url: /biohacking.html
+    - title: Molecular Dynamics
+      url: /molecular-dynamics.html
+- title: About
+  url: /about.html
+- title: CV
+  url: /CV.html
+- title: Blog
+  url: /blog.html
