@@ -49,6 +49,8 @@ ul.posts li {
   height: 405px;
   background-color: none;
   background-position: center;
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
 }
 
 .centered {
