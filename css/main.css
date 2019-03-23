@@ -49,7 +49,7 @@ ul.posts li {
   height: 405px;
   background-color: none;
   background-position: center;
-  -webkit-filter: blur(5px);
+  -webkit-filter: blur(3px);
 }
 
 .centered {
