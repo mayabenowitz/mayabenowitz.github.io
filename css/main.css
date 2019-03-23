@@ -45,7 +45,7 @@ ul.posts li {
     list-style: none;
 }
 
-/* Hero image+slideshow stylesheet */
+/* Hero image stylesheet */
 
 #bannerimage {
   width: 100%;
@@ -78,23 +78,6 @@ ul.posts li {
   width: 15%;
   padding: 10px;
   text-align: center;
-}
-
-#slideshow { 
-    margin: 50px auto; 
-    position: relative; 
-    width: 240px; 
-    height: 240px; 
-    padding: 10px; 
-    box-shadow: 0 0 20px rgba(0,0,0,0.4); 
-}
-
-#slideshow > div { 
-    position: absolute; 
-    top: 10px; 
-    left: 10px; 
-    right: 10px; 
-    bottom: 10px; 
 }
 
 /* timeline stylesheet */
@@ -416,4 +399,15 @@ header h1{
     float: right;
     text-align: left;
   }
+}
+
+/* radar stylesheet */
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:100);
+
+#radar {
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  //max-width:509.426px;
+  width: 100%
 }
