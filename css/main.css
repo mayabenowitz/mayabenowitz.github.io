@@ -1,3 +1,5 @@
+/* main stylesheet */
+
 body {
     margin: 60px auto;
     width: 70%;
@@ -43,6 +45,8 @@ ul.posts li {
     list-style: none;
 }
 
+/* Hero image+slideshow stylesheet */
+
 #bannerimage {
   width: 100%;
   background-image: url(https://images.squarespace-cdn.com/content/5b6a93759772ae3555c31081/1553293510903-Z8RBFSD5RR0TRLMVNDVE/);
@@ -59,10 +63,9 @@ ul.posts li {
   transform: translate(-50%, -50%);
 }
 
-/* Position text in the middle of the page/image */
 .center-text {
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.4);
   color: white;
   font-weight: bold;
   border: 3px solid #f1f1f1;
@@ -76,6 +79,25 @@ ul.posts li {
   padding: 10px;
   text-align: center;
 }
+
+#slideshow { 
+    margin: 50px auto; 
+    position: relative; 
+    width: 240px; 
+    height: 240px; 
+    padding: 10px; 
+    box-shadow: 0 0 20px rgba(0,0,0,0.4); 
+}
+
+#slideshow > div { 
+    position: absolute; 
+    top: 10px; 
+    left: 10px; 
+    right: 10px; 
+    bottom: 10px; 
+}
+
+/* timeline stylesheet */
 
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,900);
 
