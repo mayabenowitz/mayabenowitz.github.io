@@ -48,8 +48,8 @@ ul.posts li {
   background-image: url(https://images.squarespace-cdn.com/content/5b6a93759772ae3555c31081/1553293510903-Z8RBFSD5RR0TRLMVNDVE/);
   height: 405px;
   background-color: none;
-  background-position: center;
-  -webkit-filter: blur(3px);
+  /*background-position: center; */
+  /* -webkit-filter: blur(3px); */
 }
 
 .centered {
