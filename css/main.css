@@ -1,13 +1,6 @@
 body {
     margin: 60px auto;
     width: 70%;
-    
-	font: {
-		size: 100%;
-		family: $primary-font;
-	}
-	color: $main-text;
-	background-color: $background;
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
