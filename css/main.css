@@ -10,7 +10,7 @@ body {
 
 .fixed-nav-bar {
   position: fixed;
-  top: 10;
+  top: 0;
   left: 0;
   z-index: 9999;
   width: 100%;
@@ -26,7 +26,7 @@ nav ul, footer ul {
 }
 nav ul li, footer ul li {
     display: inline;
-    margin-right: 20px;
+    margin-right: 50px;
 }
 a {
     text-decoration: none;
