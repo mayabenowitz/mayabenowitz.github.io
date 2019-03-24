@@ -62,7 +62,7 @@ ul.posts li {
 }
 
 /* Style all font awesome icons */
-.fa {
+.fab {
   padding: 20px;
   font-size: 30px;
   width: 50px;
@@ -71,11 +71,11 @@ ul.posts li {
 }
 
 /* Add a hover effect if you want */
-.fa:hover {
+.fab:hover {
   opacity: 0.7;
 }
 
-.fa-github {
+.fab-github {
     color: #999;
 }
 
