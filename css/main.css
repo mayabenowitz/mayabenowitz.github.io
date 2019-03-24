@@ -10,13 +10,12 @@ body {
 
 .fixed-nav-bar {
   position: fixed;
-  right: 300px;
   top: 0;
   left: 0;
   z-index: 9999;
-  width: 20;
+  width: 100%;
   height: 50px;
-  background-color: #F5F7FA;
+  background-color: rgba(0,0,0, 0.4);
 }
 
 nav ul, footer ul {
@@ -24,6 +23,7 @@ nav ul, footer ul {
     padding: 0px;
     list-style: none;
     font-weight: bold;
+    text-align: center;
 }
 nav ul li, footer ul li {
     display: inline;
