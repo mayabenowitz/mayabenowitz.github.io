@@ -13,7 +13,7 @@ body {
   top: 0;
   left: 0;
   z-index: 9999;
-  width: 100%;
+  width: 20;
   height: 50px;
   background-color: #F5F7FA;
 }
@@ -26,7 +26,6 @@ nav ul, footer ul {
 }
 nav ul li, footer ul li {
     display: inline;
-    right: 50%;
     margin-right: 20px;
 }
 a {
