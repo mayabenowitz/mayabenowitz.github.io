@@ -480,7 +480,7 @@ body{
 }
 .bar::before{
   content:  attr(data-skill);
-  background-color: #66ffa5;
+  background-color: #00c4f3;
   display: inline-block;
   padding: 5px 0 5px 10px;
   border-radius: inherit;
@@ -491,14 +491,14 @@ body{
 }
 
 .bar.front::before{
-  background-color: #00abbe;
+  background-color: #00c4f3;
 }
 .bar.back::before{
-  background-color: #bb0c8e;
+  background-color: #00c4f3;
 }
 
 .bar.mid::before{
-    background-color: 01a878;
+    background-color: #00c4f3;
 }
 
 .bar.expert100::before{
