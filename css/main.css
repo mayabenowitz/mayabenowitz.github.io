@@ -1,23 +1,32 @@
-/* main stylesheet */
+/* body */
 
 body {
     margin: 60px auto;
     width: 70%;
     background-color: #F5F7FA;
 }
+
+/* navbar */
+
+.fixed-nav-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+  height: 50px;
+  background-color: #00a087;
+}
+
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
     list-style: none;
     font-weight: bold;
-    position: -webkit-sticky;
-    position: sticky;
 }
 nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
-    position: -webkit-sticky;
-    position: sticky;
 }
 a {
     text-decoration: none;
