@@ -456,7 +456,7 @@ body{
 }
 .bar::before{
   content:  attr(data-skill);
-  background-color: #00c4f5;
+  background-color: #66ffa5;
   display: inline-block;
   padding: 5px 0 5px 10px;
   border-radius: inherit;
@@ -467,26 +467,30 @@ body{
 }
 
 .bar.front::before{
-  background-color: #69c52f;
+  background-color: #ff8e66;
 }
 .bar.back::before{
-  background-color: #f7980f;
+  background-color: #66ff7ff;
 }
 
-.bar.learning::before{
-  width: calc(100% - 10px);
+.bar.mid::before{
+    background-color: #9666ff;
 }
-.bar.basic::before{
+
+.bar.expert::before{
   width: calc(100% - 10px);
-}
-.bar.intermediate::before{
-  width: calc(80% - 10px);
 }
 .bar.advanced::before{
   width: calc(80% - 10px);
 }
-.bar.expert::before{
-  width: calc(70% - 10px);
+.bar.intermediate::before{
+  width: calc(60% - 10px);
+}
+.bar.basic::before{
+  width: calc(40% - 10px);
+}
+.bar.learning::before{
+  width: calc(20% - 10px);
 }
 
 
