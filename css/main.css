@@ -15,7 +15,8 @@ body {
   z-index: 9999;
   width: 100%;
   height: 50px;
-  background-color: #fff5df;
+  background-color: #ffd2bb;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 nav ul, footer ul {
@@ -27,7 +28,7 @@ nav ul, footer ul {
 }
 nav ul li, footer ul li {
     display: inline;
-    margin-right: 20px;
+    margin-right: 50px;
 }
 a {
     text-decoration: none;
