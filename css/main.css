@@ -494,6 +494,58 @@ body{
   width: calc(20% - 10px);
 }
 
+/* sidebar */
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
+.wrapper {
+  width: 100%;
+  max-width: 600px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 60px;
+  margin-bottom: 200px;
+}
+.content {
+  padding: 0 15px;
+  width: 380px;
+}
+.content h1 {
+  margin-top: 0;
+}
+.content p,
+.sidebar p{
+  font-family: "BLOKKNeue-Regular";
+}
+.sidebar {
+  padding: 20px;
+  width: 170px;
+  background-color: #434A54;
+  color: #fff;
+}
+.sidebar h3 {
+  margin: 0;
+}
+.content,
+.sidebar {
+  float: left;
+}
+
 /* The sticky */
 .sidebar {
   position: -webkit-sticky;
