@@ -62,16 +62,16 @@ ul.posts li {
 }
 
 /* Style all font awesome icons */
-.fab {
+.fa {
   padding: 20px;
-  font-size: 300px;
-  width: 300px;
+  font-size: 100px;
+  width: 100px;
   text-align: center;
   text-decoration: none;
 }
 
 /* Add a hover effect if you want */
-.fab:hover {
+.fa:hover {
   opacity: 0.7;
 }
 
