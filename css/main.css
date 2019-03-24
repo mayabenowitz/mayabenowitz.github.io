@@ -75,21 +75,19 @@ ul.posts li {
   opacity: 0.7;
 }
 
-.fab-github-square {
-    color: #999;
+.fas {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
 }
 
-.fa-gmail {
-    color: #999;
+/* Add a hover effect if you want */
+.fas:hover {
+  opacity: 0.7;
 }
 
-.fa-linkedin {
-    color: #999;
-}
-
-.fa-quora {
-    color: #999;
-}
 
 /* Hero image */
 
