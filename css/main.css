@@ -460,21 +460,21 @@ body{
   display: inline-block;
   padding: 5px 0 5px 10px;
   border-radius: inherit;
-  animation: load 2s 0s;
-  -webkit-animation: load 2s 0s;
-  -moz-animation: load 2s 0s;
-  -o-animation: load 2s 0s;
+  animation: load 3s 0s;
+  -webkit-animation: load 3s 0s;
+  -moz-animation: load 3s 0s;
+  -o-animation: load 3s 0s;
 }
 
 .bar.front::before{
-  background-color: #ff8e66;
+  background-color: #00abbe;
 }
 .bar.back::before{
-  background-color: #66ff7ff;
+  background-color: #bb0c8e;
 }
 
 .bar.mid::before{
-    background-color: #9666ff;
+    background-color: 01a878;
 }
 
 .bar.expert::before{
