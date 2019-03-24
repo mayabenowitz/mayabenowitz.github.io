@@ -477,7 +477,7 @@ body{
     background-color: 01a878;
 }
 
-.bar.100::before{
+.bar.expert100::before{
   width: calc(100% - 10px);
 }
 .bar.advanced::before{
