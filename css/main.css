@@ -38,14 +38,6 @@ a:hover {
     text-decoration: underline;
 }
 
-b {
-    text-decoration: none;
-    color: #999;
-}
-b:hover {
-    text-decoration: underline;
-}
-
 h1 {
     font-size: 3em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
