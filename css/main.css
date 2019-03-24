@@ -38,11 +38,11 @@ a:hover {
     text-decoration: underline;
 }
 
-a-bot {
+b {
     text-decoration: none;
     color: #999;
 }
-a-bot:hover {
+b:hover {
     text-decoration: underline;
 }
 
