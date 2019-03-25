@@ -61,7 +61,8 @@ ul.posts li {
     list-style: none;
 }
 
-/* Style all font awesome icons */
+/* icons */
+
 .fab {
   padding: 20px;
   font-size: 30px;
@@ -70,7 +71,6 @@ ul.posts li {
   text-decoration: none;
 }
 
-/* Add a hover effect if you want */
 .fab:hover {
   opacity: 0.7;
 }
@@ -83,11 +83,9 @@ ul.posts li {
   text-decoration: none;
 }
 
-/* Add a hover effect if you want */
 .fas:hover {
   opacity: 0.7;
 }
-
 
 /* Hero image */
 
@@ -456,7 +454,7 @@ header h1{
   width: 100%
 }
 
-/* skill bar */
+/* skill bars */
 
 body{
   font-family: Helvetica, Arial, sans-serif;
@@ -521,9 +519,16 @@ body{
     background-color: #00c4f3;
 }
 
-.bar.expert100::before{
-  width: calc(100% - 10px);
+/* core attributes */
+
+.bar.creativity::before{
+  width: calc(96% - 10px);
 }
+
+.bar.curiosity::before{
+    width: calc(89% - 10px)
+}
+
 .bar.advanced::before{
   width: calc(80% - 10px);
 }
