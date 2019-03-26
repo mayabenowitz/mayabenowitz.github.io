@@ -133,7 +133,7 @@ ul.posts li {
 /* Hero image */
 
 #bannerimage {
-  width: 100%;
+  width: 100%; 
   background-image: url(https://images.squarespace-cdn.com/content/5b6a93759772ae3555c31081/1553293510903-Z8RBFSD5RR0TRLMVNDVE/);
   height: 405px;
   background-color: none;
@@ -186,8 +186,8 @@ body2 {
     text-align: center;
     color: white; /* ADD THIS LINE */
     
-    /* Background styles */
-    background-image: url('https://i0.wp.com/thepointsguy.com/wp-content/uploads/2018/08/JonCarmichael_108_AllRightsReserved_ONLINE.jpg?fit=2000%2C1250px&ssl=1');
+    /* Background styles */ 
+    background-image: url('https://i2.wp.com/thepointsguy.com/wp-content/uploads/2018/08/JonCarmichael_108_AllRightsReserved_ONLINE.jpg?fit=1024%2C1024px&amp;ssl=1');
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
