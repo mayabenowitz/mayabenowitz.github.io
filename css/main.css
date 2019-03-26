@@ -554,6 +554,7 @@ header h1{
   font-family: 'Roboto', sans-serif;
   //max-width:509.426px;
   width: 100%
+  box-shadow: 120px 80px 40px 20px #0ff;
 }
 
 /* skill bars */
