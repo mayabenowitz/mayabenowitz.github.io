@@ -50,5 +50,20 @@
 				<li><a href="https://quora.com/profile/M-P-Benowitz-1" style="font-size: 40px; color: #bfbfbf" class="fab fa-quora"></a></li>
 			</ul>
 			</footer>
+			
+			<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
 		</body>
 	</html>
