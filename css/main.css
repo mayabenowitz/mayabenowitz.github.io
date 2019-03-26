@@ -76,7 +76,6 @@ nav ul li, footer ul li {
 a {
     text-decoration: none;
     color: white;
-    padding-right:10px;
 }
 a:hover {
     text-decoration: underline;
