@@ -600,7 +600,7 @@ body{
 }
 .bar::before{
   content:  attr(data-skill);
-  background-color: #00c4f3;
+  background-color: #0f7fff;
   display: inline-block;
   padding: 5px 0 5px 10px;
   border-radius: inherit;
@@ -611,14 +611,14 @@ body{
 }
 
 .bar.front::before{
-  background-color: #00c4f3;
+  background-color: #0f7fff;
 }
 .bar.back::before{
-  background-color: #00c4f3;
+  background-color: #0f7fff;
 }
 
 .bar.mid::before{
-    background-color: #00c4f3;
+    background-color: #0f7fff;
 }
 
 /* core attributes */
