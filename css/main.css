@@ -112,7 +112,7 @@ ul.posts li {
   width: 50px;
   text-align: center;
   text-decoration: none;
-  margin: 0 15px 5px 0;
+  margin-right: 1em;
 }
 
 .fab:hover {
@@ -125,7 +125,6 @@ ul.posts li {
   width: 50px;
   text-align: center;
   text-decoration: none;
-  margin: 0 15px 5px 0;
 }
 
 .fas:hover {
