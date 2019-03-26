@@ -10,7 +10,6 @@ body {
 #navbar {
   overflow: hidden;
   background-color: #333;
-  text-align: center;
   height: 50px;
 }
 
@@ -60,14 +59,14 @@ body {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 } */
 
-nav ul, footer ul {
+/* nav ul, */ footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
     list-style: none;
     font-weight: bold;
     text-align: center;
 }
-nav ul li, footer ul li {
+/* nav ul li, */ footer ul li {
     display: inline;
     margin-right: 50px;
 }
