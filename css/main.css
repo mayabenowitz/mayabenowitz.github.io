@@ -51,7 +51,7 @@ body {
   padding-top: 60px;
 }
 
-.fixed-nav-bar {
+/* .fixed-nav-bar {
   position: fixed;
   top: 0;
   left: 0;
@@ -60,7 +60,7 @@ body {
   height: 50px;
   background-color: #00c4f3;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
+} */
 
 nav ul, footer ul {
     font-family:'Exo 2', 'Roboto', 'Roboto';
@@ -131,15 +131,15 @@ ul.posts li {
   opacity: 0.7;
 }
 
-/* Hero image */
+/* old hero image */
 
-#bannerimage {
+/* #bannerimage {
   width: 100%; 
   background-image: url(https://images.squarespace-cdn.com/content/5b6a93759772ae3555c31081/1553293510903-Z8RBFSD5RR0TRLMVNDVE/);
   height: 405px;
   background-color: none;
-  /*background-position: center; */
-  /* -webkit-filter: blur(3px); */
+  background-position: center; 
+   -webkit-filter: blur(3px); 
 }
 
 .centered {
@@ -164,9 +164,9 @@ ul.posts li {
   width: 15%;
   padding: 10px;
   text-align: center;
-}
+} */
 
-/* hero image 2*/
+/* new hero image */
 
 body2 {
     margin: 0;
@@ -644,3 +644,76 @@ body{
 .bar.learning::before{
   width: calc(20% - 10px);
 }
+
+/* bouncing page arrow */
+
+@-moz-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -moz-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -moz-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -moz-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+@-webkit-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -moz-transform: translateY(-30px);
+    -ms-transform: translateY(-30px);
+    -webkit-transform: translateY(-30px);
+    transform: translateY(-30px);
+  }
+  60% {
+    -moz-transform: translateY(-15px);
+    -ms-transform: translateY(-15px);
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+
+i {
+  display: block;
+  color: #fff;
+}
+.arrow {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  margin-left: -20px;
+  width: 40px;
+  height: 60px; /*change with size of arrow to make sit on bottom */
+/*   background-image: url(); */
+/*   background-size: contain; */
+}
+
+.bounce {
+  -moz-animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
+}
+
