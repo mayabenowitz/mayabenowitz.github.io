@@ -63,7 +63,7 @@ body {
 }
 
 nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-family:'Exo 2', 'Roboto', 'Sans-Serif';
     padding: 0px;
     list-style: none;
     font-weight: bold;
@@ -83,7 +83,7 @@ a:hover {
 
 h1 {
     font-size: 3em;
-    font-family:'Exo 2', 'Arial', 'Sans-Serif';
+    font-family:'Exo 2', 'Roboto', 'Sans-Serif';
 }
 p {
     font-size: 1.5em;
@@ -229,7 +229,7 @@ body2 {
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,900);
 
 body{
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: #333;
 }
 
