@@ -20,6 +20,11 @@
 			
 			 <div class="arrow bounce"><i class="fa fa-angle-down fa-5x" aria-hidden="true"></i></div>
 			
+			<script>$(window).scroll(function(){
+   			 	$(".arrow").css("opacity", 1 - $(window).scrollTop() / 250); 
+  				//250 is fade pixels
+  				});</script>
+			
 			<!--<div id="bannerimage">
 			</div> -->
 			
@@ -56,11 +61,6 @@
 			</ul>
 			</footer>
 			
-			<script>$(window).scroll(function(){
-   			 	$(".arrow").css("opacity", 1 - $(window).scrollTop() / 250); 
-  				//250 is fade pixels
-  				});</script>
-			
 			<script>
 				window.onscroll = function() {myFunction()};
 
@@ -75,6 +75,5 @@
  				 }
 					}
 			</script>
-			
 		</body>
 	</html>
