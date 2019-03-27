@@ -9,7 +9,7 @@ body {
 
 #navbar {
   overflow: hidden;
-  background-color: #0f7fff;
+  background-color: radial-gradient(ellipse farthest-corner at center top, #1ccea6,#2f61e2);
   height: 50px;
   z-index: 999;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
