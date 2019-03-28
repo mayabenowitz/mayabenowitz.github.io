@@ -116,7 +116,7 @@ ul.posts li {
 }
 
 .fab:hover {
-  opacity: 0.7;
+  opacity: 0.5;
 }
 
 .fas {
@@ -128,7 +128,7 @@ ul.posts li {
 }
 
 .fas:hover {
-  opacity: 0.7;
+  opacity: 0.5;
 }
 
 /* old hero image */
